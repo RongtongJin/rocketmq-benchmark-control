@@ -1,12 +1,14 @@
 #!/bin/sh
 
-scp -r /root/openmessaging-benchmark root@172.16.64.153:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.154:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.155:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.156:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.157:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.158:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.159:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.160:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.161:/root
-scp -r /root/openmessaging-benchmark root@172.16.64.162:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.163:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.164:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.166:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.167:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.168:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.169:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.170:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.171:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.172:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.173:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.174:/root
+scp -r /root/openmessaging-benchmark root@172.16.64.175:/root

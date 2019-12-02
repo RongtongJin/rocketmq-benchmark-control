@@ -1,7 +1,7 @@
 (defcluster :rocketmq
-            :clients [{:host "172.16.64.149" :user "root"}
-                      {:host "172.16.64.150" :user "root"}
-                      {:host "172.16.64.151" :user "root"}])
+            :clients [{:host "172.16.64.176" :user "root"}
+                      {:host "172.16.64.177" :user "root"}
+                      {:host "172.16.64.178" :user "root"}])
 
 (deftask :date "echo date on cluster" []
          (ssh "date"))
@@ -11,7 +11,7 @@
          (ssh
            (run
              (cd "pr1516/rocketmq/distribution/target/rocketmq-4.6.0-SNAPSHOT/rocketmq-4.6.0-SNAPSHOT/"
-                 (run "sh bin/brokerstartup.sh -n 172.16.64.152:9876 -c conf/broker.conf")))))
+                 (run "sh bin/brokerstartup.sh -n 172.16.64.165:9876 -c conf/broker.conf")))))
 
 (deftask :stop []
          (ssh
